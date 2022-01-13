@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/myown/mystyle.css">
     <title>Abhay's Profile</title>
     <style>
-        *{
+        {
     padding: 0;
     font-family: monospace;
 }
-body{
-    background-image: url(https://image.freepik.com/free-vector/gradient-wavy-purple-background_23-2149117433.jpg);
-    background-size:1450px 750px;
-    background-repeat: no-repeat;
+.bk-image{
+
+position:absolute;
+z-index: -1;
+width: 100%;
+height: 100%;
+padding: 0;
+top: 0;
 }
 a{
     text-decoration: none;
@@ -25,41 +30,40 @@ h1,h2,.portfolio{
     text-align: center;
 font-size: 50px;
 color: #fff;
-border: #fff 5px solid;
+border: #fff 4px solid;
 background-color: #000000c7;
 border-radius: 40px;
 }
 h2{
-    margin-left: 25%;
-    width:700px;
+    margin-left: 28%;
+    width:600px;
     font-size: 35px;
-    border-radius: 10px;;
+    border-radius: 10px;
 }
 .portfolio{
-    margin-left: 40%;
-    width:250px;
     font-size: 30px;
     margin-top: 100px;
     border-radius: 10px;
     background-color:#00000000;
+    padding: 10px;
 }
 .portfolio:hover{
     background-color:#000;
-    border: #000 3px solid;
+    border: #fff 3px solid;
     transition: .5s ease-out;
-    margin-left: 38%;
-    width:300px;
+    margin-left: 35%;
+    width:400px;
 }
 .pp{
     width:200px;
     height: 200px;
-    border:#fff 5px solid;
+    border:#fff 10px solid;
     border-radius: 50%;
     margin-left:42%;
 }
 .pp:hover,h1:hover,h2:hover,#linkid:hover,#git:hover,#hr:hover{
     border-color:rgb(145, 12, 145);
-    transition: .5s linear;
+    transition: .7s ease-in-out;
 }
 nav{
     display: inline-block;
@@ -67,29 +71,28 @@ nav{
     margin-top: 5%;
 }
 #linkid,#hr,#git{
-    padding: 0;
-    width:60px;
-    height: 60px;
+ 
+    width:50px;
+    height: 50px;
     margin: 0 30px 0 30px;
     border: #fff 5px solid;
     border-radius: 50%;
 }
 #hr{
-    width:50px;
-    height: 50px;
-    margin-bottom: 8px;
+    margin-bottom: 3px;
 }
     </style>
-    </head>
+</head>
 <body>
     <header><h1>Profile</h1></header>
-    <h2>I am a Professional programmer</h2>
+    <h2>Professional programmer</h2>
+    <img src="6020173.jpg" class ="bk-image">
     <section>
         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFdG9CuImMRTw/profile-displayphoto-shrink_800_800/0/1620860327085?e=1647475200&v=beta&t=qFNpNt8m_m4z78h0xJqIV3jhKB1bio2YTRGTibGEJXM" alt="Profile Photo" class="pp">
     </section>
     
     <section class="portfolio">
-        <a href="https://github.com/Abhaysworkplace/My-Resume/blob/cad1281e111dc15e9f198bc54abe46abb4f65f04/Abhay_Goyal_Resume_05-01-2022-22-25-44.pdf" target="_blank">Portfolio</a>
+        <a href="https://github.com/Abhaysworkplace/My-Resume/blob/cad1281e111dc15e9f198bc54abe46abb4f65f04/Abhay_Goyal_Resume_05-01-2022-22-25-44.pdf" target="_blank">View Portfolio</a>
     </section>
     <footer>
         <nav>
