@@ -2,10 +2,13 @@
     padding: 0;
     font-family: monospace;
 }
-body{
-    background-image: url(/myown/6020173.jpg);
-    background-size:1450px 750px;
-    background-repeat: no-repeat;
+.bk-image{
+position:absolute;
+z-index: -1;
+width: 100%;
+height: 100%;
+padding: 0;
+top: 0;
 }
 a{
     text-decoration: none;
@@ -17,41 +20,40 @@ h1,h2,.portfolio{
     text-align: center;
 font-size: 50px;
 color: #fff;
-border: #fff 5px solid;
+border: #fff 4px solid;
 background-color: #000000c7;
 border-radius: 40px;
 }
 h2{
-    margin-left: 25%;
-    width:700px;
+    margin-left: 28%;
+    width:600px;
     font-size: 35px;
-    border-radius: 10px;;
+    border-radius: 10px;
 }
 .portfolio{
-    margin-left: 40%;
-    width:250px;
     font-size: 30px;
     margin-top: 100px;
     border-radius: 10px;
     background-color:#00000000;
+    padding: 10px;
 }
 .portfolio:hover{
     background-color:#000;
-    border: #000 3px solid;
+    border: #fff 3px solid;
     transition: .5s ease-out;
-    margin-left: 38%;
-    width:300px;
+    margin-left: 35%;
+    width:400px;
 }
 .pp{
     width:200px;
     height: 200px;
-    border:#fff 5px solid;
+    border:#fff 10px solid;
     border-radius: 50%;
     margin-left:42%;
 }
 .pp:hover,h1:hover,h2:hover,#linkid:hover,#git:hover,#hr:hover{
     border-color:rgb(145, 12, 145);
-    transition: .5s linear;
+    transition: .7s ease-in-out;
 }
 nav{
     display: inline-block;
@@ -59,15 +61,13 @@ nav{
     margin-top: 5%;
 }
 #linkid,#hr,#git{
-    padding: 0;
-    width:60px;
-    height: 60px;
+ 
+    width:50px;
+    height: 50px;
     margin: 0 30px 0 30px;
     border: #fff 5px solid;
     border-radius: 50%;
 }
 #hr{
-    width:50px;
-    height: 50px;
-    margin-bottom: 8px;
+    margin-bottom: 3px;
 }
